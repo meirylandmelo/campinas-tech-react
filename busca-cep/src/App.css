@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.input {
+  margin-right: 5px;
+}
+
+.info {
+  margin: 20px auto;
+  border: solid 2px;
+  width: 30%;
+  min-width: 300px; 
+}
+
+
