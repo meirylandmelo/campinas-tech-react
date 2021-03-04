@@ -6,7 +6,9 @@ interface AlertProps {
 const Alert = ({ message, show }: AlertProps) =>
   show ? (
     <div>
-      <p data-testid="myAlert">{message}</p>
+      <p className="alert" data-testid="myAlert">
+        {message}
+      </p>
     </div>
   ) : null;
 
