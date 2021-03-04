@@ -12,8 +12,13 @@ function App() {
     <div className="App">
       <Avatar />
       <Lista />
-      <button onClick={() => setAlertState(!alertState)}>Temos</button>
-      <Alert message="Você deve aceitar os termos" show={alertState} />
+      <button
+        className="alert-button"
+        onClick={() => setAlertState(!alertState)}
+      >
+        Termos
+      </button>
+      <Alert message="Você deve aceitar os termos!" show={alertState} />
     </div>
   );
 }
