@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  background-color: #399bd9;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+.span-title {
+  color: #e53e80;
+}
+
+.subtitle {
+  color: #312682;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #e53e80;
+  height: 40px;
+  border-radius: 8px;
+  border: transparent;
+  color: #ffffff;
+  font-weight: Bold;
+  margin-bottom: 30px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.list {
+  color: #312682;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.list-name {
+  color: #e53e80;
+}
